@@ -36,6 +36,9 @@
 #include "kcapi.h"
 #include "internal.h"
 
+#pragma GCC diagnostic ignored "-Wconversion"
+#pragma GCC diagnostic ignored "-Wsign-conversion"
+
 /************************************************************
  * Common helper used within the lib and as an API
  ************************************************************/
