@@ -10,6 +10,7 @@ LOCAL_EXPORT_LDLIBS =
 LOCAL_AUTOTOOLS_VERSION := 2.0.4
 LOCAL_AUTOTOOLS_CONFIGURE_ARGS := \
 	--enable-kcapi-encapp \
+	--enable-kcapi-hasher \
 	CFLAGS=-Wconversion \
 	$(NULL)
 
